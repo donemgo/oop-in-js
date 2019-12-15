@@ -14,3 +14,4 @@ function userCreator(name, score) {
 
 const user1 = userCreator('phil', 40);
 const user2 = userCreator('kebuke', 50);
+user2.increment();
